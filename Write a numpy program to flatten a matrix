@@ -1,0 +1,4 @@
+import numpy as np
+d=np.array([1,2],[2,3],[3,4])
+f=d.flatten()
+print(f)
