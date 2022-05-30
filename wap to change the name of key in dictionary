@@ -1,0 +1,7 @@
+emplyee_details={
+  "name":"bob"
+  "age":"50"
+  "city":"bharatpur" 
+}
+student_details['name_of_employe']=student_details.pop('name')
+print(student_details)
