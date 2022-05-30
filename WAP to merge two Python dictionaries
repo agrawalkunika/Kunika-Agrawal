@@ -1,0 +1,16 @@
+a={}
+b={}
+r=int(input("enter no. of elements in dict1"))
+for i in range(0,r):
+  x1=input("enter key for dict1")
+  y1=input("enter value for dict1")
+  a.update({x1:y1})
+print(a)
+p=int(input("enter no. of elements in dict2"))
+for i in range(0,p):
+  x2=input("enter key for dict2")
+  y2=input("enter value for dict2")
+  b.update({x2:y2})
+print(b)
+print("merged dictionary from a and b is-")
+a.update(b)
