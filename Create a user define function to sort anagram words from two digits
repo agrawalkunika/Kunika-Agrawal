@@ -1,0 +1,10 @@
+def anagram(x,y):
+  return sorted(x)==sorted(y)
+a=['blue','silver','tan','ruby','teal']
+b=['lube','bore','vets','late','taco']
+c=0
+for i in a:
+  for j in b:
+    if anagram(i,j):
+      c+=1
+print(c)
