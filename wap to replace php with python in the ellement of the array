@@ -1,0 +1,7 @@
+import numpy as np
+x1=np.array(['php exercise,practise,solution],dtype=np.str
+print("\noringnal array:")
+print(x1)
+r=np.char.replace(x,'php','python')
+print("\nnew_array")
+print(r)
