@@ -1,0 +1,7 @@
+import random as rd
+n1 = rd.random()
+print("First Random float is ", n1)
+n2 = rd.random()
+print("Second Random float is ", n2)
+n = n1 * n2
+print("Multiplication is ", n)
