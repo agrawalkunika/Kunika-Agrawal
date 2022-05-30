@@ -1,0 +1,5 @@
+d={'a':200,'b':300,'c':100,'d':500,'e':400}
+k=eval(input("enter the keys you want to delete"))
+for i in k:
+  d.pop(k)
+print(d)
