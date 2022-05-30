@@ -1,0 +1,6 @@
+d1={1:2,2:3,3:2,4:3}
+d2={}
+for key,value in d1.items():
+  if value not in d2.values():  
+    d2[key]=value
+print(d2)
