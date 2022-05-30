@@ -1,0 +1,6 @@
+a={'a':100,'b':200,'c':300,'d':400}
+b=input("enter the value you want to search")
+if b in a.values():
+  print(f' {b} exists')
+else:
+  print(f' {b} does not exists')  
