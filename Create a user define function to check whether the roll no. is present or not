@@ -1,0 +1,8 @@
+def fun(roll):
+  x=[1,2,3,4,5,6,7,8,9]
+  if roll in x:
+    print(f'roll no. {roll} is present')
+  else:
+     print(f'roll no. {roll} is absent')
+r=int(input("enter roll no."))
+fun(r)
