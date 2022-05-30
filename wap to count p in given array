@@ -1,0 +1,7 @@
+import numpy as np
+x1=np.array(['python','c++',java,php],dtype=np.str
+print("oringnal array:")
+print(x1)
+print("number of p:")
+r=(np.char.count(x1,"p")
+print(r)
