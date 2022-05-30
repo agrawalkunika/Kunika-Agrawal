@@ -1,0 +1,5 @@
+x={}
+a=list(input("enter keys"))
+b=list(input("enter values"))
+x=x.fromkeys(a,b)
+print(x)
