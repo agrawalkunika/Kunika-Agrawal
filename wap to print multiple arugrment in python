@@ -1,0 +1,5 @@
+def GFG(name, num):
+    print("Hello from ", name + ', ' + num)
+  
+  
+GFG("rohan for sohan", "25")
