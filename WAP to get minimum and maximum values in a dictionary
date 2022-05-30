@@ -1,0 +1,7 @@
+d={'a':100,'b':200,'c':300}
+v=d.values()
+m1=max(v)
+m2=min(v)
+print(f' {m1} is maximum')
+print(f' {m2} is minimum'}
+  
