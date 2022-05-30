@@ -1,0 +1,7 @@
+import numpy as np
+x1=np.array(['python','c++',java,php],dtype=np.str
+print("oringnal array:")
+print(x1)
+r=np.char.split(x)
+print("\nsplit the element of said array with spaces:")
+print(r)
