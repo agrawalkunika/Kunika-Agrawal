@@ -1,0 +1,5 @@
+import math
+h=float(input("enter height"))
+r=float(input("enter radius"))
+v=math.pi*r*r*h
+print(v)
