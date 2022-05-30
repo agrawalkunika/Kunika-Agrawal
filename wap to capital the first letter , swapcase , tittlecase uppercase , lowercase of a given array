@@ -1,0 +1,4 @@
+import numpy as np
+x1=np.array(['python','c++',java,php],dtype=np.str
+print("oringnal array:")
+print(x1)
