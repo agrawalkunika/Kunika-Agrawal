@@ -1,0 +1,4 @@
+import math 
+a=0.3456
+d=math.radians(a)
+print(d)
