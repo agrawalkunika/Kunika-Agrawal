@@ -1,0 +1,8 @@
+import math
+d=float(input("diameter of circle: "))
+a=float(input("angle measure: "))
+if a>=360:
+  print("not possible")
+else=
+  l=(math.pi*d)*(math.radians(a))
+  print(l)
