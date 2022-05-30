@@ -1,0 +1,6 @@
+import numpy as np
+a=np.array([1,2],[2,3],[3,4],[4,5])
+ma=a.max()
+mi=a.min()
+print(f'maximum value {ma}')
+print(f'minimum value {mi}')
