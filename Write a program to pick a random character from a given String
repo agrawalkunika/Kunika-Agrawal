@@ -1,0 +1,4 @@
+import random
+n = 'kunika'
+p = random.choice(n)
+print(p)
