@@ -1,0 +1,8 @@
+with open('sample.txt') as f:
+  d=f.read().split()
+    p=max(d,key=len)
+    r=[]
+    for i in d:
+      if len(i)==len(p)
+        r.append(i)
+    print(r)
