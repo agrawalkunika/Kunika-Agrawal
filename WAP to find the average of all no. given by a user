@@ -1,0 +1,9 @@
+def fun(*avg,s=0):
+  for i in avg:
+    s=s+i
+    p=avg.count(i)
+  a=s/p
+  return a
+print(fun(1,2,3,4,5))
+
+  
